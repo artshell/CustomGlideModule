@@ -1,0 +1,27 @@
+ext {
+    // android
+    compileVersion = 26
+    buildVersion = "27.0.0"
+    minVersion = 14
+    targetVersion = 26
+    supportVersion = "27.0.0"
+    junitVersion = "4.12"
+
+    // app module
+    versionCode = 100
+    versionName = "1.0.0"
+
+    // ============== third party dependencies ==============
+
+    // okhttp
+    okhttp = "3.9.0"
+    okio = "1.13.0"
+
+    // glide
+    glide_v3 = "3.8.0"
+    glide_v3_okhttp3_integration = "1.5.0@aar"
+
+    glide_v4 = "4.2.0"
+    glide_v4_annotationProcessor = "4.2.0"
+    glide_v4_okhttp3_integration = "4.2.0"
+}
